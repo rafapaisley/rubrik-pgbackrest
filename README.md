@@ -1,7 +1,7 @@
 # rubrik-pgbackrest
 A custom script to get pgbackrest working with Rubrik Managed Volume
 
-Help:
+```Help:
 ./pgbackrest.sh -h
 Usage: ./pgbackrest.sh -t TYPE -c CONFIG
     -t TYPE   : Backup type (auto | full | incr | archive | wal | mount | unmount)
